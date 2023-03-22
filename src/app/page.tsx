@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-primary-black overflow-hidden">
       <NavBar />
       <About />
       <Hero />

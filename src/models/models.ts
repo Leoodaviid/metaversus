@@ -12,7 +12,8 @@ export interface StartingFeaturesProps {
 }
 
 export interface NewFeaturesProps {
-  imgUrl: string
+  id: number
+  imgUrl: string | StaticImageData
   title: string
   subtitle: string
 }

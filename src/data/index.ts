@@ -3,6 +3,8 @@ import PlanetTwo from '../public/planet-02.png'
 import PlanetThree from '../public/planet-03.png'
 import PlanetFour from '../public/planet-04.png'
 import PlanetFive from '../public/planet-05.png'
+import Vr from '../public/vrpano.svg'
+import Headset from '../public/headset.svg'
 import {
   ExploreWorldsProps,
   InsightsProps,
@@ -47,15 +49,17 @@ export const startingFeatures: StartingFeaturesProps[] = [
 
 export const newFeatures: NewFeaturesProps[] = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle: 'we have the latest update with new world for you to try never mind',
+    id: 1,
+    imgUrl: Vr,
+    title: 'Um novo mundo',
+    subtitle: 'Uma experiência totalmente imersiva, mergulhe neste novo reino do espaço digital.',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    id: 2,
+    imgUrl: Headset,
+    title: 'Mais realista',
     subtitle:
-      'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Na atualização mais recente, você confunde a linha entre a realidade física e virtual',
   },
 ]
 

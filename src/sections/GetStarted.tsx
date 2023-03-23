@@ -1,9 +1,7 @@
 'use client'
-
 import { motion } from 'framer-motion'
 import { TypingText, TitleText } from '@/components/CustomTexts'
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion'
-import { exploreWorlds } from '@/data'
 import { startingFeatures } from '@/data'
 import StartSteps from '@/components/StartSteps'
 import styles from '../styles/index'

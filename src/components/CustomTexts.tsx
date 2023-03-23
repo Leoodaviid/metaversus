@@ -1,5 +1,6 @@
 'use client'
-import { motion } from 'framer-motion'
+import { ReactNode } from 'react'
+import { motion, MotionValue } from 'framer-motion'
 import { textContainer, textVariant2 } from '@/utils/motion'
 
 interface TypingTextProps {
@@ -19,4 +20,17 @@ export const TypingText = ({ title, textStyles }: TypingTextProps) => (
   </motion.p>
 )
 
-export const TitleText = () => <h2>Title Text</h2>
+interface TitleTextProps {
+  title: ReactNode | MotionValue<number> | MotionValue<string>
+  textStyles: string
+}
+export const TitleText = ({ title, textStyles }: TitleTextProps) => (
+  <motion.h2
+    variants={textVariant2}
+    initial='hidden'
+    whileInView='show'
+    className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+)

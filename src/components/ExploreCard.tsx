@@ -13,21 +13,16 @@ interface ExploredCardProps {
   handleClick: (id: string) => void
 }
 const ExploreCard = ({ world, index, active, handleClick }: ExploredCardProps) => {
-  const variants = fadeIn({
-    direction: 'right',
-    type: 'spring',
-    delay: index * 0.5,
-    duration: 0.75,
-  })
   return (
     <motion.div
       variants={fadeIn({ direction: 'right', type: 'spring', delay: index * 0.5, duration: 0.75 })}
       initial='hidden'
-      animate='show'
+      whileInView='show'
+      viewport={{ once: false, amount: 0.25 }}
       className={`relative ${
         active === world.id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s]
-      ease-out-flex`}
+      ease-out-flex `}
       onClick={() => handleClick(world.id)}
     >
       <Image
@@ -40,7 +35,7 @@ const ExploreCard = ({ world, index, active, handleClick }: ExploredCardProps) =
           {world.title}
         </h3>
       ) : (
-        <div className='absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-bb-[24px]'>
+        <div className='absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]'>
           <div
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >

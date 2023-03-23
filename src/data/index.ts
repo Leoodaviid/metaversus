@@ -1,3 +1,8 @@
+import PlanetOne from '../public/planet-01.png'
+import PlanetTwo from '../public/planet-02.png'
+import PlanetThree from '../public/planet-03.png'
+import PlanetFour from '../public/planet-04.png'
+import PlanetFive from '../public/planet-05.png'
 import {
   ExploreWorldsProps,
   InsightsProps,
@@ -9,28 +14,28 @@ import {
 export const exploreWorlds: ExploreWorldsProps[] = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: PlanetOne,
+    title: 'Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: PlanetTwo,
+    title: 'O Mundo Invertido',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: PlanetThree,
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: PlanetFour,
+    title: 'Ilha Paraíso',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: PlanetFive,
+    title: 'Laboratório Hawkins',
   },
 ]
 

@@ -7,6 +7,7 @@ export interface ExploreWorldsProps {
 }
 
 export interface StartingFeaturesProps {
+  id: number
   description: string
 }
 

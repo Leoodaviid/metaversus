@@ -3,6 +3,9 @@ import PlanetTwo from '../public/planet-02.png'
 import PlanetThree from '../public/planet-03.png'
 import PlanetFour from '../public/planet-04.png'
 import PlanetFive from '../public/planet-05.png'
+import PlanetSix from '../public/planet-06.png'
+import PlanetSeven from '../public/planet-07.png'
+import PlanetEight from '../public/planet-08.png'
 import Vr from '../public/vrpano.svg'
 import Headset from '../public/headset.svg'
 import {
@@ -65,20 +68,23 @@ export const newFeatures: NewFeaturesProps[] = [
 
 export const insights: InsightsProps[] = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    id: 1,
+    imgUrl: PlanetSix,
+    title: 'O lançamento do Metaverso torna Elon musk ketar-ketir',
     subtitle:
       'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    id: 2,
+    imgUrl: PlanetSeven,
+    title: '7 dicas para dominar facilmente a loucura do Metaverso',
     subtitle:
       'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    id: 3,
+    imgUrl: PlanetEight,
+    title: 'Com uma plataforma, você pode explorar o mundo inteiro virtualmente',
     subtitle:
       'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },

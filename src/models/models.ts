@@ -19,7 +19,8 @@ export interface NewFeaturesProps {
 }
 
 export interface InsightsProps {
-  imgUrl: string
+  id: number
+  imgUrl: string | StaticImageData
   title: string
   subtitle: string
 }

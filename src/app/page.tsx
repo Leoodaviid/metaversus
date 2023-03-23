@@ -4,6 +4,7 @@ import Explore from '@/sections/Explore'
 import GetStarted from '@/sections/GetStarted'
 import Hero from '@/sections/Hero'
 import WhatsNew from '@/sections/WhatsNew'
+
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,9 +21,8 @@ export default function Page() {
       </div>
       <div className='relative'>
         <GetStarted />
-        <div className='gradient-04 z-0'>
-          <WhatsNew />
-        </div>
+        <div className='gradient-04 z-0' />
+        <WhatsNew />
       </div>
     </div>
   )

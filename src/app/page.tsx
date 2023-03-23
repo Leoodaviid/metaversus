@@ -1,9 +1,13 @@
+import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import About from '@/sections/About'
 import Explore from '@/sections/Explore'
+import Feedback from '@/sections/Feedback'
 import GetStarted from '@/sections/GetStarted'
 import Hero from '@/sections/Hero'
+import Insights from '@/sections/Insights'
 import WhatsNew from '@/sections/WhatsNew'
+import World from '@/sections/World'
 
 import { Inter } from 'next/font/google'
 
@@ -24,6 +28,13 @@ export default function Page() {
         <div className='gradient-04 z-0' />
         <WhatsNew />
       </div>
+      <World />
+      <div className='relative'>
+        <Insights />
+        <div className='gradient-04 z-0' />
+        <Feedback />
+      </div>
+      <Footer />
     </div>
   )
 }

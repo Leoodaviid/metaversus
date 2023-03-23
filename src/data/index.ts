@@ -40,9 +40,9 @@ export const exploreWorlds: ExploreWorldsProps[] = [
 ]
 
 export const startingFeatures: StartingFeaturesProps[] = [
-  { description: 'Encontre um mundo que combina com você e você deseja entrar' },
-  { description: 'Entre no mundo lendo basmalah para estar seguro' },
-  { description: 'Não há necessidade de rodeios, apenas fique no acelerador e divirta-se' },
+  { id: 1, description: 'Encontre um mundo que combina com você e você deseja entrar' },
+  { id: 2, description: 'Entre no mundo lendo basmalah para estar seguro' },
+  { id: 3, description: 'Não há necessidade de rodeios, apenas fique no acelerador e divirta-se' },
 ]
 
 export const newFeatures: NewFeaturesProps[] = [

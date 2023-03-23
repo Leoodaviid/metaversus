@@ -5,7 +5,7 @@ import { textContainer, textVariant2 } from '@/utils/motion'
 
 interface TypingTextProps {
   title: string
-  textStyles: string
+  textStyles?: string
 }
 export const TypingText = ({ title, textStyles }: TypingTextProps) => (
   <motion.p
@@ -22,7 +22,7 @@ export const TypingText = ({ title, textStyles }: TypingTextProps) => (
 
 interface TitleTextProps {
   title: ReactNode | MotionValue<number> | MotionValue<string>
-  textStyles: string
+  textStyles?: string
 }
 export const TitleText = ({ title, textStyles }: TitleTextProps) => (
   <motion.h2

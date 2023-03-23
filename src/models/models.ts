@@ -1,6 +1,8 @@
+import { StaticImageData } from 'next/image'
+
 export interface ExploreWorldsProps {
   id: string
-  imgUrl: string
+  imgUrl: string | StaticImageData
   title: string
 }
 

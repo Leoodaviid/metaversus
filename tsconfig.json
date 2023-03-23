@@ -30,8 +30,8 @@
     ".next/types/**/*.ts",
     "postcss.config.js",
     "postcss.config.js",
-    "src/utils/motion.js",
-    "src/utils/motion.js"
+    "src/utils/motion.ts",
+    "src/utils/motion.ts"
   ],
   "exclude": ["node_modules"]
 }

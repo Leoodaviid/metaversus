@@ -19,7 +19,7 @@ const About = () => {
       >
         <TypingText title='| Sobre Metaversus' textStyles='text-center' />
         <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+          variants={fadeIn({ direction: 'up', type: 'tween', delay: 0.2, duration: 1 })}
           className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
         >
           <span className='font-extrabold text-white'>Metaverso</span> é uma novidade do futuro,
@@ -32,7 +32,7 @@ const About = () => {
           rolando para baixo.
         </motion.p>
         <motion.div
-          variants={fadeIn('up', 'tween', 0.3, 1)}
+          variants={fadeIn({ direction: 'up', type: 'tween', delay: 0.3, duration: 1 })}
           className='w-[18px] h-[28px] object-contain mt-[28px]'
         >
           <Image src={ArrowDown} alt='flecha para baixo' />

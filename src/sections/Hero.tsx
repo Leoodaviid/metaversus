@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import { slideIn, staggerContainer, textVariant } from '@/utils/motion'
+import { slideIn, staggerContainer, textVariant } from '../utils/motion'
 import styles from '../styles/index'
 import Image from 'next/image'
 import Cover from '../public/cover.png'
@@ -30,7 +30,7 @@ const Hero = () => {
           </motion.div>
         </div>
         <motion.div
-          variants={slideIn('right', 'tween', 0.2, 1)}
+          variants={slideIn({ direction: 'right', type: 'tween', delay: 0.2, duration: 1 })}
           className='relative w-full md:-mt-[20px] -mt-[12px]'
         >
           <div className='absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]' />

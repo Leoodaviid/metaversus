@@ -8,6 +8,11 @@ import PlanetSeven from '../public/planet-07.png'
 import PlanetEight from '../public/planet-08.png'
 import Vr from '../public/vrpano.svg'
 import Headset from '../public/headset.svg'
+import Twitter from '../public/twitter.svg'
+import Linkedin from '../public/linkedin.svg'
+import Instagram from '../public/instagram.svg'
+import Facebook from '../public/facebook.svg'
+
 import {
   ExploreWorldsProps,
   InsightsProps,
@@ -93,18 +98,18 @@ export const insights: InsightsProps[] = [
 export const socials: SocialsProps[] = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    url: Twitter,
   },
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    url: Linkedin,
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    url: Instagram,
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    url: Facebook,
   },
 ]

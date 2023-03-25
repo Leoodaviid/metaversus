@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
-import { slideIn, staggerContainer, textVariant } from '../utils/motion'
+import { slideIn, staggerContainer, textVariant, zoomIn } from '../utils/motion'
+import { socials } from '@/data'
 import styles from '../styles/index'
 import Image from 'next/image'
 import Cover from '../public/cover.png'
@@ -17,6 +18,19 @@ const Hero = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className='flex justify-center items-center flex-col relative z-10'>
+          <motion.div
+            variants={zoomIn({ delay: 0.4, duration: 1 })}
+            className='absolute flex flex-col right-16 2xl:right-8 top-0 gap-8'
+          >
+            {socials.map((social) => (
+              <Image
+                key={social.name}
+                src={social.url}
+                alt={social.name}
+                className='hidden xl:flex w-[24px] h-[24px] object-contain cursor-pointer'
+              />
+            ))}
+          </motion.div>
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
             metaverso
           </motion.h1>

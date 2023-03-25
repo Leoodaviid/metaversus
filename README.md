@@ -93,14 +93,14 @@ metaversus/
 ├──.eslintrc.json
 ├──.gitignore
 ├──.prettierrc
-├──.next-env.d.ts
-├──.next.config.js
-├──.package.json
-├──.pnpm-lock.yaml
-├──.postcss.config.js
-├──.README.md
-├──.tailwind.config.js
-├──.tsconfig.json
+├──next-env.d.ts
+├──next.config.js
+├──package.json
+├──pnpm-lock.yaml
+├──postcss.config.js
+├──README.md
+├──tailwind.config.js
+├──tsconfig.json
 ```
 
 
@@ -130,13 +130,13 @@ metaversus/
 
 - `src/componentes/CustomTexts.tsx`: Dois componentes que usam a biblioteca framer Motion para animar elementos de texto. `TypingText` é um componente que usa uma string de título como um suporte e cria um efeito de animação no estilo de máquina de escrever iterando cada letra na string e animando sua aparência. Ele também permite que um prop textStyles opcional adicione estilos CSS adicionais ao texto. `TitleText` é um componente que recebe uma propriedade de título, que pode ser um ReactNode ou um objeto Framer Motion MotionValue, e cria um efeito de animação fade-in para o texto. Ele também permite que um prop textStyles opcional adicione estilos CSS adicionais ao texto.
 - `src/components/ExploreCard.tsx`: componente que renderiza um cartão de exploração, ele recebe vários adereços, incluindo o mundo a ser exibido, o índice do mundo na lista de mundos, o mundo ativo (se houver) e uma função para manipular o clique no cartão. O componente usa o componente de movimento da biblioteca Framer Motion para adicionar efeitos de animação ao cartão, como um efeito de fade-in e um efeito de mola. Ele também usa uma imagem SVG de um fone de ouvido e uma classe CSS para glassmorphism para adicionar efeitos visuais ao cartão.
-- `src/componentes/Footer.ts`x: Esse componente renderiza o Footer(rodapé) do aplicativo web.
+- `src/componentes/Footer.tsx`: Esse componente renderiza o Footer(rodapé) do aplicativo web.
 - `src/componentes/InsightCard.tsx`: Este é um componente que exibe um cartão de entendimento. É preciso um objeto insight como suporte, que deve conter as seguintes propriedades: id (número): um identificador exclusivo para o cartão de insights, imgUrl (string): a URL da imagem a ser exibida no cartão, title (string): o título do insight, subtítulo (string): o subtítulo ou a descrição do insight.
   O componente usa o componente de movimento da biblioteca de movimento do framer para adicionar efeitos de animação.
 - `src/componentes/Navbar.tsx`:Esse componente renderiza o Menu de navegação do aplicativo web.
 - `src/component/NewFeature.tsx`: O componente renderiza um cartão que exibe informações sobre um novo recurso, incluindo um ícone, título e subtítulo.
 - `src/utils/motion.ts`: Este é um módulo TypeScript que exporta várias constantes e funções reutilizáveis que podem ser usadas para criar movimentos suaves e consistentes usando a biblioteca Framer Motion.
-- `taiwind.config.js`: Arquivo de configuração para o Tailwind CSS.
+- `tailwind.config.js`: Arquivo de configuração para o Tailwind CSS.
 
 
 

@@ -32,7 +32,7 @@ const Feedback = () => {
           </div>
           <p className='mt-[24px] font-normal sm:normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white'>
             “Com o desenvolvimento da tecnologia, o metaverso é muito útil para o trabalho atual, ou
-            pode ser chamado de web 3.0. usando o metaverso, você pode usá-lo como qualquer coisa”
+            pode ser chamado de web 3.0. Usando o metaverso, você pode fazer qualquer coisa”
           </p>
         </motion.div>
         <motion.div

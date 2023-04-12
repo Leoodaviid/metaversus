@@ -2,8 +2,6 @@
 
 🔗: <a href="https://metaversus-leoodaviid.vercel.app/">https://metaversus-leoodaviid.vercel.app/</a>
 
-
-
 ## 💻Tecnologias:
 
 - Typescript
@@ -16,8 +14,6 @@
 
 - Framer Motion
 
-  
-
 ## 🛠️Instalação:
 
 Para instalar as dependências, execute o seguinte comando:
@@ -25,8 +21,6 @@ Para instalar as dependências, execute o seguinte comando:
 ```
 npm install || yarn install || pnpm install
 ```
-
-
 
 ## 🧑‍💻Uso:
 
@@ -38,17 +32,13 @@ npm start || yarn start || pnpm dev
 
 Isso iniciará o projeto em`http://localhost:3000`.
 
-
-
 ## 🗃️Estrutura dos arquivos:
-
-
 
 ```
 
 metaversus/
 ├── .next/
-│    └── ... 
+│    └── ...
 ├── .vscode/
 │	└── ...
 └── src/
@@ -103,11 +93,7 @@ metaversus/
 ├──tsconfig.json
 ```
 
-
-
 ## 🔑Descrição de alguns diretórios importantes:
-
-
 
 - `.next/`: Onde contém todos os recursos compilados e otimizados, como as páginas HTML, pacotes JavaScript, imagens e outros arquivos estáticos necessários para executar o aplicativo no modo de produção.
 - `src/`: Diretório usado para armazenar o código-fonte. Contém todos os arquivos Typescript, componentes React e outros recursos usados para criar a interface do usuário e implementar a lógica de negócios do aplicativo.
@@ -116,17 +102,11 @@ metaversus/
 - `src/data/`: Onde contém alguns dados estáticos para o site Metaverse, usado para preencher elementos da interface do usuário, como cartões, listas e ícones.
 - `src/models/`: Onde contém a definição de interfaces TypeScript para as props de diferentes componentes usados na estrutura Next.js.
 - `src/public`: Contém arquivos estáticos como imagens, fontes etc.
-- `src/public`: Contém os componentes que compõem as diferentes seções do aplicativo. Cada componente representa uma seção do aplicativo.
-- `src/styles`: Arquivos CSS e relacionados ao estilo do projeto. 
+- `src/sections`: Contém os componentes que compõem as diferentes seções do aplicativo. Cada componente representa uma seção do aplicativo.
+- `src/styles`: Arquivos CSS e relacionados ao estilo do projeto.
 - `src/utils`: Funções utilitárias usadas em todo o aplicativo.
 
-
-
-
-
 ## 🧰Detalhes e funções de alguns arquivos:
-
-
 
 - `src/componentes/CustomTexts.tsx`: Dois componentes que usam a biblioteca framer Motion para animar elementos de texto. `TypingText` é um componente que usa uma string de título como um suporte e cria um efeito de animação no estilo de máquina de escrever iterando cada letra na string e animando sua aparência. Ele também permite que um prop textStyles opcional adicione estilos CSS adicionais ao texto. `TitleText` é um componente que recebe uma propriedade de título, que pode ser um ReactNode ou um objeto Framer Motion MotionValue, e cria um efeito de animação fade-in para o texto. Ele também permite que um prop textStyles opcional adicione estilos CSS adicionais ao texto.
 - `src/components/ExploreCard.tsx`: componente que renderiza um cartão de exploração, ele recebe vários adereços, incluindo o mundo a ser exibido, o índice do mundo na lista de mundos, o mundo ativo (se houver) e uma função para manipular o clique no cartão. O componente usa o componente de movimento da biblioteca Framer Motion para adicionar efeitos de animação ao cartão, como um efeito de fade-in e um efeito de mola. Ele também usa uma imagem SVG de um fone de ouvido e uma classe CSS para glassmorphism para adicionar efeitos visuais ao cartão.
@@ -137,16 +117,3 @@ metaversus/
 - `src/component/NewFeature.tsx`: O componente renderiza um cartão que exibe informações sobre um novo recurso, incluindo um ícone, título e subtítulo.
 - `src/utils/motion.ts`: Este é um módulo TypeScript que exporta várias constantes e funções reutilizáveis que podem ser usadas para criar movimentos suaves e consistentes usando a biblioteca Framer Motion.
 - `tailwind.config.js`: Arquivo de configuração para o Tailwind CSS.
-
-
-
-
-
-
-
-
-
-
-
-
-

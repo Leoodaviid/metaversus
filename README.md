@@ -116,7 +116,7 @@ metaversus/
 - `src/data/`: Onde contém alguns dados estáticos para o site Metaverse, usado para preencher elementos da interface do usuário, como cartões, listas e ícones.
 - `src/models/`: Onde contém a definição de interfaces TypeScript para as props de diferentes componentes usados na estrutura Next.js.
 - `src/public`: Contém arquivos estáticos como imagens, fontes etc.
-- `src/public`: Contém os componentes que compõem as diferentes seções do aplicativo. Cada componente representa uma seção do aplicativo.
+- `src/sections`: Contém os componentes que compõem as diferentes seções do aplicativo. Cada componente representa uma seção do aplicativo.
 - `src/styles`: Arquivos CSS e relacionados ao estilo do projeto. 
 - `src/utils`: Funções utilitárias usadas em todo o aplicativo.
 
